@@ -1,13 +1,26 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  /* background-color: hsl(195deg, 20%, 86%); */
+}
+
+.bg {
+  background-color: hsl(195deg, 20%, 86%);
+  /* background-color: black; */
+  height: 40%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .maxWidthWrapper {
+  /* width: 100%; */
+  position: relative;
 }
 
 .header {
   padding-bottom: 64px;
+  max-width: 65%;
 }
 
 .title {
@@ -24,7 +37,15 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  min-height: 500px;
+  top: 150px;
+  right: 200px;
+  width: 30%;
 }
 
 .controlColumn {
+  max-width: 50%;
+  /* overflow: auto; */
+  white-space: nowrap;
 }
